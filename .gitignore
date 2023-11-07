@@ -1,0 +1,10 @@
+__pycache__/
+.cache/
+.config/
+.pytest_cache/
+.upm/
+venv/
+
+*.lock
+*.toml
+*.nix
