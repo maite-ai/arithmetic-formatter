@@ -6,5 +6,5 @@ __pycache__/
 venv/
 
 *.lock
-*.toml
+pyproject.toml
 *.nix
