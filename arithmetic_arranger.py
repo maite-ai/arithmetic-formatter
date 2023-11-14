@@ -1,5 +1,5 @@
 def arithmetic_arranger(problems, show_results=False):
-	
+	#CHALLENGE BEGINS
 	# Only five or less problems, otherwise throws an error
 	if len(problems) > 5:
 		return "Error: Too many problems."
@@ -48,3 +48,4 @@ def arithmetic_arranger(problems, show_results=False):
 		return f"{arranged_top}\n{arranged_bottom}\n{arranged_line}\n{arranged_result}"
 	else:
 		return f"{arranged_top}\n{arranged_bottom}\n{arranged_line}"
+	#CHALLENGE ENDS
